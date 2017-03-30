@@ -1,0 +1,144 @@
+<template name="PeopleDetails">
+
+    <div class="people-details">
+        <!--<div class="row">-->
+            <!--<div class="col-md-4">-->
+                <div class="passport">
+                    <img class="profile-pic" src="img/user.jpg" alt="">
+                    <h5><strong>SUFFIAN SAWRI ABIR</strong></h5>
+                    <div class="passport-content">
+                        <div class="occupation">
+                            <p><strong>Software Engineer and Consultant in Dhaka, Bangladesh</strong></p>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="" class="btn btn-primary"><i class="fa fa-user-plus"></i>Connect</a>
+                            <a href="" class="btn btn-primary"><i class="fa fa-envelope"></i>Message</a>
+                            <a href="" class="btn btn-primary"><i class="fa fa-share-alt"></i>Share</a>
+                        </div>
+                        <div class="ct bio">
+                            <p>Greetings, I’m Golam Sarwar. I’m a software engineer living in Dhaka, Bangladesh. I am a fan of technology, music, and entrepreneurship. I’m also interested in travel and movies. You can book a consultation with a click on the button above.</p>                    
+                        </div>
+                        <div class="ct interests">
+                            <p><strong>INTERESTS</strong></p>                        
+                            #technology #music #entrepreneurship #travel #movies
+                        </div>
+                        <div class="ct skills">
+                            <p><strong>SKILLS</strong></p>
+                            #technology #music #entrepreneurship #travel #movies
+                        </div>
+                        <div class="ct education">
+                            <p><strong>EDUCATION</strong></p>                        
+                            #technology #music #entrepreneurship #travel #movies
+                        </div>
+                        <div class="ct work-experience">
+                            <p><strong>WORK EXPERIENCE</strong></p>                                                
+                            #technology #music #entrepreneurship #travel #movies
+                        </div>
+                        <div class="ct certification">
+                            <p><strong>CERTIFICATION</strong></p>                                                
+                            #technology #music #entrepreneurship #travel #movies
+                        </div>
+                        <div class="ct publication">
+                            <p><strong>PUBLICATION</strong></p>                                                
+                            #technology #music #entrepreneurship #travel #movies
+                        </div>
+                        <div class="ct awards">
+                            <p><strong>AWARDS</strong></p>                                                
+                            #technology #music #entrepreneurship #travel #movies
+                        </div>
+                        <ul class="ct social">
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-google"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            <!--</div>-->
+            <!--<div class="col-md-8">-->
+                <div class="people-content">
+                    <table class="tabs">
+                        <tr>
+                            <td><a class="active" href="">Works</a></td>
+                            <td><a href="">Blog</a></td>
+                            <td><a href="">Network</a></td>
+                            <td><a href="">Favorites</a></td>
+                            <td><a href="">Activity</a></td>
+                        </tr>
+                    </table>
+                    
+                    <div class="works">
+                        <div class="row">
+                            <div class="col-md-4">
+                                {{> WorkCard }}                            
+                            </div>
+                            <div class="col-md-4">
+                                {{> WorkCard }}                            
+                            </div>
+                            <div class="col-md-4">
+                                {{> WorkCard }}                            
+                            </div>
+                            <div class="col-md-4">
+                                {{> WorkCard }}                            
+                            </div>
+                            <div class="col-md-4">
+                                {{> WorkCard }}                            
+                            </div>
+                            <div class="col-md-4">
+                                {{> WorkCard }}                            
+                            </div>
+                            <div class="col-md-4">
+                                {{> WorkCard }}                            
+                            </div>
+                            <div class="col-md-4">
+                                {{> WorkCard }}                            
+                            </div>
+                            <div class="col-md-4">
+                                {{> WorkCard }}                            
+                            </div>
+                            <div class="col-md-4">
+                                {{> WorkCard }}                            
+                            </div>
+                            <div class="col-md-4">
+                                {{> WorkCard }}                            
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+        
+</template>
+
+
+<template name="WorkCard">
+    <div class="work-item">
+        <div class="work-images">                
+            <img src="img/s4.jpg" alt="">
+            <div class="work-item-content">
+                <div class="parent">
+                    <div class="child-cell">
+                        <a href=""><h5><strong>Inspiration of Gambling</strong></h5></a>
+                        <p><small>#technology #music #entrepreneurship</small></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Vero ipsa adipisci id dolores....</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="work-item-footer">
+            <table class="tabs">
+                <tr>
+                    <td><a href=""><i class="fa fa-heart"></i>5565</a></td>
+                    <td><a href=""><i class="fa fa-eye"></i>1212</a></td>
+                    <td><a href=""><i class="fa fa-share-alt"></i></a></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</template>
